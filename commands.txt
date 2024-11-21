@@ -1,2 +1,0 @@
-# Update yaml to synchronize with local environment
-conda env export --no-builds > environment.yaml 
