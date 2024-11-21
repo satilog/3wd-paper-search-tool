@@ -4,6 +4,8 @@ import pandas as pd
 import yaml
 
 from src.cli import CLI
+from src.download import PDFDownloader
+from src.filter import PaperFilter
 from src.pipeline import PaperSearchPipeline
 from src.search import PaperSearcher
 
@@ -35,6 +37,8 @@ def main():
 
     # Initialize pipeline components
     searcher = PaperSearcher(config)
+    paper_filter = PaperFilter(config)
+    downloader = PDFDownloader(config)
 
     # Execute based on user choice
     if choice == "1":
@@ -43,13 +47,13 @@ def main():
     elif choice == "2":
         print("Filtering existing list of papers...")
         all_papers = pd.read_csv(all_results_file).to_dict(orient="records")
-        print("TODO")
+        paper_filter.filter_papers(all_papers)
     elif choice == "3":
         print("Downloading filtered papers...")
         filtered_papers = pd.read_csv(filtered_results_file).to_dict(orient="records")
-        print("TODO")
+        downloader.download_pdfs(filtered_papers)
     elif choice == "4":
-        print("Exiting the tool.")
+        print("Exiting the tool. Goodbye!")
         return
 
 
