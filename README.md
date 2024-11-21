@@ -19,7 +19,7 @@ This repository contains a Python-based application that streamlines the researc
 
 The folder structure for this project is as follows:
 
-`
+```
 3wd-paper-search-tool/
 │
 ├── config/
@@ -47,7 +47,7 @@ The folder structure for this project is as follows:
 ├── environment.yaml           # Conda environment configuration
 ├── makefile                   # Makefile for setting up and running the project
 └── main.py                    # Entry point of the application
-`
+```
 
 ## Ignored Files and Folders
 
