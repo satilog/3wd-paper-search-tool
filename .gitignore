@@ -24,9 +24,6 @@ venv/
 # Log files
 *.log
 
-# Configuration files
-config/*.yaml
-
 # System files
 .DS_Store
 Thumbs.db
