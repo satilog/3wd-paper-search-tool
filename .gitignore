@@ -60,3 +60,5 @@ data/papers
 
 data/
 data_backup/
+
+.env
