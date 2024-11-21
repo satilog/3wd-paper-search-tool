@@ -52,3 +52,11 @@ build/
 *.tmp
 *.old
 *.orig
+
+
+data/*v1*
+data/*v2*
+data/papers
+
+data/
+data_backup/

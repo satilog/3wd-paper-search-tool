@@ -1,16 +1,16 @@
 # Configuration settings for the paper search tool
 search:
   default_term: "three way decision in intrusion detection systems"
-  max_results: 200  # Maximum number of papers to fetch
-filter:
-  keywords:  # Keywords to filter by
-    title: ["three", "3wd", "twd"]
-    abstract: ["three", "3wd", "twd"]
+  max_results: 60  # Maximum number of papers to fetch
+  delay: 5
+  output: "./data/search_results.csv"
+  filter:
+    keywords:  # Keywords to filter by
+      title: ["three", "3", "3wd", "twd"]
+      abstract: ["three", "3", "3wd", "twd"]
 download:
-  pdf_folder: "./data/filtered_papers"
-output:
-  all_results_file: "./data/all_results.csv"
-  filtered_results_file: "./data/filtered_results.csv"
-general:
-  max_filtered_papers: 60  # Maximum number of filtered papers
-  delay_seconds: 4  # Delay between API requests
+  pdf_folder: "./data/papers"
+llm:
+  output_folder: "./data/llm_responses"
+  merged_responses_file: "./data/llm_responses.json"
+  delay: 5

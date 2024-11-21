@@ -1,4 +1,5 @@
 import argparse
+import os
 
 import pandas as pd
 import yaml
@@ -6,11 +7,13 @@ import yaml
 from src.cli import CLI
 from src.download import PDFDownloader
 from src.filter import PaperFilter
+from src.knowledge_extractor import KnowledgeExtractor
 from src.pipeline import PaperSearchPipeline
-from src.search import PaperSearcher
+from src.search import PaperSearch, PaperSearcher
 
 
 def main():
+    # Load configuration
     parser = argparse.ArgumentParser(description="Paper Search Tool")
     parser.add_argument(
         "--config",
