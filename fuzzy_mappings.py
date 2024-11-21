@@ -13,7 +13,7 @@ keywords = {
   "one-class svm": "support vector machine",
   "support vector machine": "machine learning",
   "application-layer protocols": "network protocols",
-  "intrusion detection system": "intrusion detection systems",
+  "intrusion detection system": "intrusion detection",
   "ahp-topsis": "decision-making",
   "insider attack": "cybersecurity",
   "krill herd optimization algorithm": "optimization",
@@ -22,14 +22,14 @@ keywords = {
   "false alarm ratio": "intrusion detection metrics",
   "data mining": "machine learning",
   "cisco packet tracer": "network simulation tools",
-  "network ids": "intrusion detection systems",
+  "network ids": "intrusion detection",
   "artificial neural networks": "neural networks",
   "network security": "cybersecurity",
   "security": "cybersecurity",
   "neural network": "machine learning",
   "passive protocol analysis": "network protocols",
   "deep learning": "neural networks",
-  "network intrusion detection systems (nids)": "intrusion detection systems",
+  "network intrusion detection systems (nids)": "intrusion detection",
   "optimization": "computational intelligence",
   "particle swarm optimization": "optimization",
   "anomaly detection": "intrusion detection",
@@ -46,9 +46,9 @@ keywords = {
   "misuse detection": "intrusion detection",
   "soft computing": "computational intelligence",
   "computer security": "cybersecurity",
-  "ids analysis": "intrusion detection systems",
+  "ids analysis": "intrusion detection",
   "attack taxonomy": "cybersecurity",
-  "intrusion detection systems (idss)": "intrusion detection systems",
+  "intrusion detection systems (idss)": "intrusion detection",
   "sensor fusion": "data fusion",
   "missed alarms": "intrusion detection metrics",
   "lstm": "neural networks",
@@ -62,7 +62,7 @@ keywords = {
   "intrusive anomalies": "anomaly detection",
   "tcpdump": "network monitoring tools",
   "analytical modeling": "modeling",
-  "host-based intrusion detection systems": "intrusion detection systems",
+  "host-based intrusion detection systems": "intrusion detection",
   "minimum cross entropy": "optimization",
   "cybersecurity": "information security",
   "stacknet": "ensemble learning",
@@ -96,7 +96,7 @@ keywords = {
   "neuro-fuzzy": "fuzzy logic",
   "software configuration": "software engineering",
   "insertion attacks": "cybersecurity",
-  "ids": "intrusion detection systems",
+  "ids": "intrusion detection",
   "decision jungle": "ensemble learning",
   "visualization": "data analysis",
   "machine learning approaches": "machine learning",
@@ -108,17 +108,17 @@ keywords = {
   "layer wise relevance propagation": "explainable ai",
   "classification": "machine learning",
   "computer misuse": "cybersecurity",
-  "ids coverage": "intrusion detection systems",
+  "ids coverage": "intrusion detection",
   "dynamic protocol analysis": "network protocols",
   "trust management": "collaboration",
   "security policies": "cybersecurity",
   "id3 algorithm": "decision trees",
   "inductive learning": "machine learning",
   "deep neural networks": "neural networks",
-  "ids evaluation": "intrusion detection systems",
+  "ids evaluation": "intrusion detection",
   "explainable artificial intelligence": "explainable ai",
   "cost-sensitive modeling": "modeling",
-  "collaborative ids": "intrusion detection systems",
+  "collaborative ids": "intrusion detection",
   "weka": "data mining tools",
   "distributed approaches": "distributed systems",
   "c4.5": "decision trees",
@@ -140,14 +140,14 @@ keywords = {
   "kdd cup 99": "datasets",
   "frequent episodes": "data mining",
   "intrusion signatures": "intrusion detection",
-  "hybrid ids": "intrusion detection systems",
+  "hybrid ids": "intrusion detection",
   "one-vs-one": "machine learning",
   "hybrid intelligent system": "artificial intelligence",
   "pso": "particle swarm optimization",
-  "intrusion detection": "intrusion detection systems",
+  "intrusion detection": "intrusion detection",
   "coronavirus pandemic": "global events",
   "firewalls": "network security",
-  "anomaly-based ids": "intrusion detection systems",
+  "anomaly-based ids": "intrusion detection",
   "pca": "dimensionality reduction",
   "shell command": "operating systems",
   "profiling": "data analysis",
@@ -174,7 +174,7 @@ methodologies = {
   "analytical hierarchy process (ahp)": "decision-making",
   "intrusion detection techniques": "intrusion detection",
   "decision tree learning": "decision trees",
-  "hierarchical ids": "intrusion detection systems",
+  "hierarchical ids": "intrusion detection",
   "machine learning systems": "machine learning",
   "pattern recognition": "machine learning",
   "distributed systems": "computing systems",
@@ -257,13 +257,13 @@ methodologies = {
   "feature selection using bayesian networks and classification and regression trees": "feature selection",
   "deep neural networks": "neural networks",
   "adasyn": "data preprocessing",
-  "collaborative ids": "intrusion detection systems",
+  "collaborative ids": "intrusion detection",
   "decision analysis": "decision-making",
   "data mining framework": "data mining",
   "machine learning": "computational intelligence",
   "bayesian networks": "probabilistic models",
   "rule induction": "machine learning",
-  "collaborative intrusion detection network (cidn)": "intrusion detection systems",
+  "collaborative intrusion detection network (cidn)": "intrusion detection",
   "ensemble learning": "machine learning",
   "semi-supervised learning": "machine learning",
   "synthetic minority over-sampling technique (smote)": "data preprocessing",
@@ -297,10 +297,10 @@ methodologies = {
   "tsk+ fuzzy model": "fuzzy logic",
   "fuzzy logic": "computational intelligence",
   "dynamic application-layer protocol analysis": "network protocols",
-  "hybrid intrusion detection": "intrusion detection systems",
+  "hybrid intrusion detection": "intrusion detection",
   "open set recognition": "classification",
   "acquaintance management": "collaboration",
-  "hybrid ids": "intrusion detection systems",
+  "hybrid ids": "intrusion detection",
   "random forest": "ensemble learning",
   "clustering": "unsupervised learning",
   "binary classification": "classification",
@@ -311,15 +311,15 @@ methodologies = {
   "distributed agents": "distributed systems",
   "trust management model": "collaboration",
   "deep belief network (dbn)": "neural networks",
-  "distributed ids": "intrusion detection systems",
-  "modular ids architecture": "intrusion detection systems",
-  "collaborative intrusion detection system": "intrusion detection systems",
+  "distributed ids": "intrusion detection",
+  "modular ids architecture": "intrusion detection",
+  "collaborative intrusion detection system": "intrusion detection",
   "multilayer perceptron": "neural networks",
   "literature review": "research methodologies",
   "linear genetic programming": "evolutionary computing"
 }
 
-category_domains = {
+category_domain = {
   "robotic systems": "robotics",
   "wireless networks": "networking",
   "computer networks": "networking",
@@ -333,7 +333,7 @@ category_domains = {
   "network intrusion detection": "intrusion detection"
 }
 
-unique_authors = {
+authors = {
   "lei luo": "lei luo",
   "mohammed a. ambusaidi": "mohammed ambusaidi",
   "ishrat jahan diya": "ishrat jahan diya",
@@ -673,7 +673,7 @@ ml_models_used = {
   "stochastic gradient descent classifier": "stochastic gradient descent"
 }
 
-dataset = {
+datasets = {
   "darpa": "darpa",
   "network tcpdump data": "tcpdump",
   "kdd99": "kdd99",
@@ -715,7 +715,7 @@ dataset = {
   "kyoto 2006+": "kyoto2006+"
 }
 
-detection_method = {
+detection_methods = {
   "network ids": "network ids",
   "application-based ids": "application-based ids",
   "host-based ids": "host-based ids",
@@ -804,13 +804,13 @@ attack_types = {
   "insertion": "insertion attacks",
   "insider attacks": "insider attacks",
   "network attacks": "network attacks",
-  "ddos": "distributed denial of service (ddos)",
+  "ddos": "distributed denial of service (dos)",
   "phishing": "phishing",
   "sql injection": "sql injection",
   "spoofing": "spoofing"
 }
 
-evaluation_environments = {
+evaluation_environment = {
   "simulated military network environment": "simulated military network",
   "operational networks at ucb, mwn, and lbnl": "operational networks",
   "simulated traffic": "simulated traffic",
