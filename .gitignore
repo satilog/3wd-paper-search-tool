@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment files
+env/
+*.conda
+*.yml
+*.yaml
+
+# Virtual environment directories
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+# data/all_results.csv
+# data/filtered_results.csv
+# data/filtered_papers/
+
+# Log files
+*.log
+
+# Configuration files
+config/*.yaml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Cache files
+*.cache
+*.pyo
+*.pyd
+*.whl
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# Operating system-specific files
+*.bak
+*.tmp
+*.old
+*.orig
